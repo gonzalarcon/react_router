@@ -11,3 +11,120 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul{
+  background-color: indianred;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  margin-right: 10px;
+  display: flex;
+  justify-content: start;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: pink;
+  color: white;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main img{
+  height: 300px;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button{
+  background-color: indianred;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 85px;
+    padding: 6px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+  
+  button:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: pink;
+  }
+  
+  button:focus {
+    box-shadow: red (46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  button:disabled {
+    background-color: rgb(226, 122, 122);
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  button:active {
+    background-color: rgb(250, 109, 109);
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+input{
+  width: 500px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+textarea{
+  border-radius: 5px;
+  height: 25px;
+}
+
+.pageName{
+  float: right;
+  width: 85%;
+  justify-content: end;
+  align-items: center;
+  padding-inline: 5px;
+  display: flex;
+}
+
+.pageName p{
+margin-inline: 8px;
+}
